@@ -23,7 +23,7 @@ RUN git clone https://github.com/facebook/watchman.git \
 	&& ./configure \
 	&& make && make install
 
-# Install Node.js and Nuclide Remote Server
+# Install Node.js
 RUN apt-get install -y curl nodejs npm
 
 # 'Hack' to get 0.12 version of Node.js
@@ -31,6 +31,8 @@ RUN curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 RUN apt-get update -qq
 
 RUN apt-get install -y nodejs
+
+# Install Nuclide Remote Server
 RUN npm install -g nuclide
 
 # Start ssh service
