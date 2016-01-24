@@ -1,9 +1,9 @@
 # nuclide-remote
 The Nuclide-remote Docker container enables remote editing with Nuclide. 
-Further documentation can be found at:
+Further documentation about Nuclide can be found at:
 http://nuclide.io/docs/remote/
 
-### Running
+### Connectivity
 
 Communication between Nuclide and Nuclide-remote uses 2 ports:
 - ssh/23: needed to start nuclide remote inside Docker container
