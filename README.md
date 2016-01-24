@@ -18,14 +18,14 @@ On the remote host start this Docker container with:
 
     sudo docker run -d -p 9090:9090 -p 9091:22 -v /home/test/hello-world:/hello-world marcel/nuclide-remote
 
-On the local machine start Nuclide, select *Packages/Connect..* and enter connection information:
+On the local machine start Nuclide, select *Packages/Connect..* and enter the connection information:
 
-- Username: *root*
-- Server: *192.100.01.10*
-- Initial Directory: */hello-world*
-- Password: *nuclide*
-- SSH Port: *9091*
-- Remote Server Command: *nuclide-start-server -p 9090*
+- Username: `root`
+- Server: `192.100.01.10`
+- Initial Directory: `/hello-world`
+- Password: `nuclide`
+- SSH Port: `9091`
+- Remote Server Command: `nuclide-start-server -p 9090`
 
 After pressing ok the remote directory will show up in navigator and will be ready for editing.
 
