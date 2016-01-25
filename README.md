@@ -14,7 +14,7 @@ Communication between Nuclide and Nuclide-remote uses 2 ports:
 Setup access to a project at `/home/test/hello-world` on a remote host on `192.100.01.10`.
 Ssh will be run over port `9091` and `9090` will be used by Nuclide for communication.
 
-On the remote host start this Docker container with:
+On the remote host start this Docker container. Prebuilt image `marcel/nuclide-remote` available on Docker-Hub:
 
     sudo docker run -d -p 9090:9090 -p 9091:22 -v /home/test/hello-world:/hello-world marcel/nuclide-remote
 
