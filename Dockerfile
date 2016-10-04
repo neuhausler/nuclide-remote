@@ -25,7 +25,7 @@ RUN git clone https://github.com/facebook/watchman.git \
 
 # Install Node.js
 RUN apt-get install -y curl
-RUN curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+RUN curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
 RUN apt-get install -y nodejs
 
 # Install Nuclide Remote Server
