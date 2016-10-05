@@ -3,6 +3,10 @@ The Nuclide-remote Docker container enables remote editing with Nuclide.
 Further documentation about Nuclide can be found at:
 https://nuclide.io/docs/features/remote/
 
+### Version
+
+Supports version 0.171.0 of Nuclide IDE. Can be adjusted in Dockerfile.
+
 ### Connectivity
 
 Communication between Nuclide and Nuclide-remote uses 2 ports:
