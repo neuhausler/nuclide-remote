@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 ENV HOME /root
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV NUCLIDE_VERSION 0.219.0
+ENV NUCLIDE_VERSION 0.236.0
 
 RUN apt-get update -qq
 
