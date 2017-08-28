@@ -5,7 +5,7 @@ https://nuclide.io/docs/features/remote/
 
 ### Version
 
-Supports version 0.236.0 of Nuclide IDE. Can be adjusted in Dockerfile.
+Supports version 0.249.0 of Nuclide IDE. Can be adjusted in Dockerfile.
 
 ### Connectivity
 
